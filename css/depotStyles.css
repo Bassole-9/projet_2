@@ -1,0 +1,261 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 65%;
+}
+
+header{
+    height: 8rem;
+    width: 100%;
+    background-color: black;
+}
+.titre{
+    position: absolute;
+    color: white;
+    margin-left: 7rem;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+
+
+header nav{
+    display: flex;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 5rem;
+    height: 3rem;
+    width: 100%;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    background-color: rgb(204, 180, 0);
+    border-radius: 10px;
+    /*padding-left: 2rem;*/
+}
+header ul li{
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+header ul li a{
+    color:black;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    text-decoration-style:solid;
+}
+header a:visited{
+    text-decoration-line: underline;
+    color: black;
+}
+
+
+button a{
+    text-decoration: none;
+    margin-right: 1.1rem;
+    margin-top: .5rem;   
+}
+
+button{
+    display: flex;
+    border: none;
+    height: 2rem;
+    width: 6rem;
+    margin-top: 0.5rem;
+    border-radius: 50px;
+    justify-content: right;
+}
+
+.carre button{
+    display: flex;
+    position: absolute;
+    margin-top: 16rem;
+    margin-left: 17rem;
+    height: 3.5rem;
+    width: 12rem;
+    padding-right: 2.7rem;
+    padding-top: .7rem;
+    border-radius: 10px;
+    border: none;
+    border: 2px solid rgb(252, 248, 23);   
+}
+
+.carre button a{
+    color: rgb(0, 127, 191);
+}
+
+.carre{
+    height: 34rem;
+    width: 70%;
+    display: flex;
+    margin-left: 15%;
+}
+.carre p{
+    margin-left: 2rem;
+    font-size:30px;
+    position: absolute;
+    margin-left: 13rem;
+    margin-top: 7rem;
+    text-transform: uppercase;
+    
+}
+nav .pro1{
+    display: flex;
+    border: none;
+    height: 2rem;
+    width: 2rem;
+    margin-top: 0.5rem;
+    border-radius: 50px;
+    justify-content: right;
+}
+
+nav img{
+    border-radius: 50%;
+}
+
+
+.div{
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.carte1{
+    margin: 0 auto;
+}
+
+.carte1{
+    margin-top: 3rem;
+    height: 19rem;
+    width: 45rem;
+    background-color: white;
+    border: 1px solid black;
+    
+}
+
+.carte1 .orange{
+    height: 8rem;
+    width: 8rem;
+    position: absolute;
+    margin-top: 5.5rem;
+    margin-left: 31rem;
+}
+
+.carte1 .numero{
+    display: flex;
+    margin-left: 4rem;
+    font-size: 23px;
+    position: absolute;
+    margin-top: 6.5rem;
+}
+.carte1 .orange2{
+    height: 8rem;
+    width: 8rem;
+    background-color: aqua;
+    position: absolute;
+    margin-top: 5.5rem;
+    margin-left: 5rem;
+}
+
+.carte1 .orange3{
+    height: 8rem;
+    width: 10rem;
+    position: absolute;
+    margin-top: 3.5rem;
+    margin-left: 27rem;
+}
+
+.carte1 .trait1{
+height: 0.5rem;
+margin-left: 14.5rem;
+width: 15rem;
+background-color: black;
+position: absolute;
+margin-top: 8rem;
+}
+
+.carte1 .mobile{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+  
+}
+
+.carte1 .trait2{
+    height: 0.5rem;
+    margin-left: 14.5rem;
+    width: 15rem;
+    background-color: black;
+    position: absolute;
+    margin-top: 10rem;
+    }
+
+.carte1 .petit{
+    height: 3rem;
+    width: 100%;
+    background-color: rgb(204, 180, 0);
+}
+
+.carte1 .petit .pe{
+    display: flex;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 1rem;
+    width: 10rem;
+    height: 2rem;
+    background-color: white;
+    
+}
+.carte1 .petit .pe h3 {
+    text-align: center;
+    padding-top:.3rem;
+    padding-left: .3rem;
+    
+}
+
+.carte1 .petit2{
+    height: 3rem;
+   width: 100%;
+   background-color: rgb(204, 180, 0);
+   margin-top: 13rem;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+    header ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        list-style: none;
+        width: 100vw;
+        height: 50vh;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 20px;
+        font-weight: bold;
+        /*padding-left: 2rem;*/
+    }
+    .titre{
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+    }
+}
+

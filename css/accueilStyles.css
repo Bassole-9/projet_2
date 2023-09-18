@@ -13,26 +13,31 @@ header{
     width: 100%;
     background-color: black;
 }
+
 p{
     position: absolute;
     color: white;
-    margin-left: 3rem;
+    margin-left: 7rem;
     margin-top: 2rem;
     
 }
+
+
 header nav{
     display: flex;
-    justify-content: center;
-    width: 100%;
 }
 
 header ul{
-   display: flex;
+    display: flex;
+    justify-content: center;
     list-style: none;
     margin-top: 5rem;
     height: 3rem;
-    width: 60%;
+    width: 100%;
+    margin-left: 4rem;
+    margin-right: 4rem;
     background-color: rgb(204, 180, 0);
+    border-radius: 10px;
     /*padding-left: 2rem;*/
 }
 header ul li{
@@ -106,6 +111,18 @@ button{
 
 .div{
     text-align: center;
+    margin-top: 6rem;
+}
+
+.div h4{
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+    color:rgb(204, 180, 0);
+}
+.div h1{
+
+    font-size: 40px;
     margin-top: 2rem;
 }
 
@@ -116,14 +133,25 @@ footer{
     margin-top: 10rem;
 }
 
+footer .logo{
+display: flex;
+margin-top: 4rem;
+margin-left: 15rem;
+}
+footer .logo img{
+    margin-left: 2rem;
+    height: 40px;
+    width: 40px;
+
+}
+
+
 .foot{
 
     display: flex;
-    margin-right: 10rem;
+    margin-right: 14rem;
     margin-top: 2rem;
-
-  
-}
+}a
 
 .foot .div1 p{
     text-transform: uppercase;
@@ -146,6 +174,10 @@ footer{
     margin-top: 7rem;
 }
 
+.foot .logo {
+    display: flex;
+}
+
 
 
 
@@ -155,9 +187,7 @@ footer{
     display: flex;
     justify-content: center;
     margin-right: 15rem;
-    margin-top: 0.4rem;
- 
-    
+    margin-top: -6.2rem;
 }
 
 .foot2 .div1 p{
@@ -185,7 +215,8 @@ footer{
 .foot3{
     display: flex;
     justify-content:flex-end;
-    margin-right: 10rem;
+    margin-right: 15rem;
+    margin-top: -1rem;
     
 }
 

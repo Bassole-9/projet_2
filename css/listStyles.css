@@ -1,0 +1,346 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 65%;
+}
+
+header{
+    height: 8rem;
+    width: 100%;
+    background-color: black;
+}
+
+
+
+
+header nav{
+    display: flex;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 5rem;
+    height: 3rem;
+    width: 100%;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    background-color: rgb(204, 180, 0);
+    border-radius: 10px;
+    /*padding-left: 2rem;*/
+}
+header ul li{
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+header ul li a{
+    color:black;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    text-decoration-style:solid;
+}
+header a:visited{
+    text-decoration-line: underline;
+    color: black;
+}
+
+button a{
+    text-decoration: none;
+    margin-right: 1.1rem;
+    margin-top: .5rem;   
+}
+
+button{
+    display: flex;
+    border: none;
+    height: 2rem;
+    width: 6rem;
+    margin-top: 0.5rem;
+    border-radius: 50px;
+    justify-content: right;
+}
+
+.carre button{
+    display: flex;
+    position: absolute;
+    margin-top: 16rem;
+    margin-left: 17rem;
+    height: 3.5rem;
+    width: 12rem;
+    padding-right: 2.7rem;
+    padding-top: .7rem;
+    border-radius: 10px;
+    border: none;
+    border: 2px solid rgb(252, 248, 23);   
+}
+
+.carre button a{
+    color: rgb(0, 127, 191);
+}
+
+.carre{
+    height: 34rem;
+    width: 70%;
+    display: flex;
+    margin-left: 15%;
+}
+.carre p{
+    margin-left: 2rem;
+    font-size:30px;
+    position: absolute;
+    margin-left: 13rem;
+    margin-top: 7rem;
+    text-transform: uppercase;
+    
+}
+nav .pro1{
+    display: flex;
+    border: none;
+    height: 2rem;
+    width: 2rem;
+    margin-top: 0.5rem;
+    border-radius: 50px;
+    justify-content: right;
+}
+
+nav img{
+    border-radius: 50%;
+}
+
+
+.div{
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.div h4{
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+    color:rgb(204, 180, 0);
+}
+.div h1{
+
+    font-size: 40px;
+    margin-top: 2rem;
+}
+
+footer{
+    height: 10rem;
+    width: 100%;
+    background-color: black;
+    margin-top: 10rem;
+}
+
+footer .logo{
+display: flex;
+margin-top: 4rem;
+margin-left: 15rem;
+}
+footer .logo img{
+    margin-left: 2rem;
+    height: 40px;
+    width: 40px;
+
+}
+
+
+.foot{
+
+    display: flex;
+    margin-right: 14rem;
+    margin-top: 2rem;
+}a
+
+.foot .div1 p{
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-left: 7rem;
+    font-weight: bold;
+}
+
+.foot .div2 p{
+    margin-left: 7rem;
+    margin-top: 3rem;
+}
+
+.foot .div3 p{
+    margin-left: 7rem;
+    margin-top: 5rem;
+}
+.foot .div4 p{
+    margin-left: 7rem;
+    margin-top: 7rem;
+}
+
+.foot .logo {
+    display: flex;
+}
+
+
+
+
+
+
+.foot2{
+    display: flex;
+    justify-content: center;
+    margin-right: 15rem;
+    margin-top: -6.2rem;
+}
+
+.foot2 .div1 p{
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-left: 7rem;
+}
+
+.foot2 .div2 p{
+    margin-left: 7rem;
+    margin-top: 3rem;
+}
+
+.foot2 .div3 p{
+    margin-left: 7rem;
+    margin-top: 5rem;
+}
+.foot2 .div4 p{
+    margin-left: 7rem;
+    margin-top: 7rem;
+}
+
+
+
+.foot3{
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 15rem;
+    margin-top: -1rem;
+    
+}
+
+.foot3 .div1 p{
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+.foot3 .div2 p{
+    margin-left: rem;
+    margin-top: 3rem;
+}
+
+.foot3 .div3 p{
+    margin-left: rem;
+    margin-top: 5rem;
+}
+.foot3 .div4 p{
+    margin-left: rem;
+    margin-top: 7rem;
+}
+
+.foot a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.foot2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.foot3 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.foot a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+
+.foot2 a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.foot3 a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+
+.cercle{
+    height: 13rem;
+    width: 15rem;
+    background-color:rgb(204, 180, 0);
+    border-radius: 10px;
+    
+}
+.parent1{
+    display: flex;
+    justify-content:center;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+.parent1 p{
+    margin-left: 10px;
+    margin-top: 21px;
+}
+
+.parent2{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    gap: 5rem;
+}
+.parent2 p{
+    margin-left: 10px;
+    margin-top: 21px;
+}
+
+.parent3{
+    display: flex;
+    justify-content:center;
+    margin-top: 1rem;
+    gap: 5rem;
+}
+.parent3 p{
+    margin-left: 10px;
+    margin-top: 21px;
+}
+
+.parent1 span{
+font-weight: bold;
+font-size: 18px;
+}
+
+.parent2 span{
+    font-weight: bold;
+    font-size: 18px;
+    }
+
+.parent3 span{
+font-weight: bold;
+font-size: 18px;
+}
+
+.list{
+    font-size: 30px;
+    margin-left: 17.5rem;
+    margin-top: 4rem;
+  
+}
+
