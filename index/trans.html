@@ -7,16 +7,18 @@
 </head>
 <body>
     <header>
-                <p>TRE-BANK</p>
+
                 <div>
                     <nav>
+                        <div>TRE-BANK</div>
                         <ul>
-                            <li><a href="#">Acceuil</a></li>
-                            <li><a href="#">Depot/retrait</a></li>
-                            <li><a href="#">Economiser</a></li>
-                            <li><a href="#">Nos pourcentages</a></li>
-                            <li><a href="#">A propos</a></li>
-                            <button><a href="#">Connexion</a></button>
+                            <div class="tre">TRE-BANK</div>
+                            <li><a href="./acc.html">Accueil</a></li>
+                            <li><a href="./depot.html">Transaction</a></li>
+                            <li><a href="./echo.html">Services</a></li>
+                            <li><a href="./pourcent.html">Nos pourcentages</a></li>
+                            <li><a href="./apro.html">A propos</a></li>
+                            <a href="../index/profil.html"><div class="pro1" ><img src="../image/ava.png"></div></a>
                         </ul>
                     </nav>
                 </div>
@@ -30,29 +32,22 @@
 
     
     <div class="blocform">
-        <label for="nom"></label>
-        <input type="text" name="nom" placeholder="# Bassole">
-        <details></details>
-        <label for="number"></label>
-        <input type="text" name="number" placeholder="Montant envoyé">
+        <input type="text" name="nom" placeholder="# Bassole" value="Bassole" ><br>
+        
+        <select id="choix">
+            <option value="Mobile Money => Tre-Bank">Mobile Money => Tre-Bank</option>
+            <option value="Tre-Bank => Mobile Money">Tre-Bank => Mobile Money</option>
+        </select>
 
         <label for="number"></label>
-        <input type="number" name="number" placeholder="Montant reçu">
+        <input type="number" name="number" placeholder="Montant envoyé" id="number">
 
-        <label for="nom">Frais</label>
-        <input type="text" name="nom" placeholder="0%">
 
+        <label for="pourcentages">Frais</label>
+        <input type="text" name="nom" placeholder="0%" value="0%" id="pourcentages">
         <div class="div">
-            <div class="flex1">
-                <p>Mot de passe oublié?</p>
-                <p class="ici"></p>
-            </div>
-            
-            <div class="flex">
-                <p>vous n'avez pas de compte ?</p>
-                <p class="ici">Inscrivez vous <a href="#">ici</a></p>
-            </div>
-            <input type="submit" value="se connecter" class="valider">
+
+            <input type="submit" value="Envoyé"  id="submit" >
             
         </div>
     </div>
@@ -63,9 +58,21 @@
 
  <footer>
 
+    <div class="logo">
+            <a href="#"><img src="../image/🦆 icon _facebook icon_.png" height="10%"width="10%"></a>
+            <a href="#"><img src="../image/🦆 icon _instagram icon_.png" height="10%"width="10%"></a>
+            <a href="#"><img src="../image/🦆 icon _twitter icon_.png" height="10%"width="10%"></a>
+    </div>
+    <div class="bank" >
+        <div> &copy; Tre-Bank banque populaire tous droit reservé</div>
+    </div>
+    
+
+        
 
  </footer>
-  
     
+
+ <script src="../js/transfert.js"></script>
 </body>
 </html>

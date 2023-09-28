@@ -7,16 +7,19 @@
 </head>
 <body>
     <header>
-                <p>TRE-BANK</p>
+               
                 <div>
                     <nav>
+                        <div>TRE-BANK</div>
                         <ul>
-                            <li><a href="#">Acceuil</a></li>
-                            <li><a href="#">Depot/retrait</a></li>
-                            <li><a href="#">Economiser</a></li>
+                            <div class="tre">TRE-BANK</div>
+                            <li><a href="../index.html">Accueil</a></li>
+                            <li><a href="#">Transaction</a></li>
+                            <li><a href="#">Services</a></li>
                             <li><a href="#">Nos pourcentages</a></li>
                             <li><a href="#">A propos</a></li>
-                            <button><a href="#">Connexion</a></button>
+                            <button><a href="./for.html">Connexion</a></button>
+                            <button><a href="./formu.html">Inscription</a></button>
                         </ul>
                     </nav>
                 </div>
@@ -30,10 +33,10 @@
 
     
     <div class="blocform">
-        <label for="nom">Adresse Email</label>
-        <input type="text" name="nom" placeholder="">
+        <label for="email">Adresse Email</label>
+        <input type="text" name="email" placeholder="" id="email">
         <label for="password">Mot de passe</label>
-        <input type="password" name="password" placeholder="">
+        <input type="password" name="password" placeholder="" id="password">
 
         <div class="div">
             <div class="flex1">
@@ -43,7 +46,7 @@
             
             <div class="flex">
                 <p>vous n'avez pas de compte ?</p>
-                <p class="ici">Inscrivez vous <a href="#">ici</a></p>
+                <p class="ici">Inscrivez vous <a href="./formu.html">ici</a></p>
             </div>
             <input type="submit" value="se connecter" class="valider">
             
@@ -56,9 +59,20 @@
 
  <footer>
 
+    <div class="logo">
+            <a href="#"><img src="../image/🦆 icon _facebook icon_.png" height="10%"width="10%"></a>
+            <a href="#"><img src="../image/🦆 icon _instagram icon_.png" height="10%"width="10%"></a>
+            <a href="#"><img src="../image/🦆 icon _twitter icon_.png" height="10%"width="10%"></a>
+    </div>
+    <div class="bank" >
+        <div> &copy; Tre-Bank banque populaire tous droit reservé</div>
+    </div>
+    
+
+        
 
  </footer>
   
-    
+    <script src="../js/connexion.js"></script>
 </body>
 </html>

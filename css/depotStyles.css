@@ -6,6 +6,7 @@
 body{
     width: 100%;
     height: 65%;
+    background-color: beige;
 }
 
 header{
@@ -13,40 +14,43 @@ header{
     width: 100%;
     background-color: black;
 }
-.titre{
+p{
     position: absolute;
     color: white;
-    margin-left: 7rem;
     margin-top: 2rem;
-    font-weight: bold;
 }
 
-
-
-header nav{
-    display: flex;
+.tre{
+margin-right: 10rem;
+margin-top: 2rem;
+font-weight: bold;
+font-size: 30px;
 }
 
 header ul{
     display: flex;
     justify-content: center;
     list-style: none;
-    margin-top: 5rem;
-    height: 3rem;
+    height: 6rem;
     width: 100%;
-    margin-left: 4rem;
     margin-right: 4rem;
     background-color: rgb(204, 180, 0);
-    border-radius: 10px;
-    /*padding-left: 2rem;*/
+    font-weight: bold;
 }
 header ul li{
     margin-right: 2rem;
-    margin-top: 1rem;
+    margin-top: 2.5rem;
 }
 header ul li a{
     color:black;
     text-decoration: none;
+}
+
+.mobile{
+    color: black;
+}
+.numero{
+    color:black
 }
 
 header a:hover{
@@ -58,7 +62,6 @@ header a:visited{
     text-decoration-line: underline;
     color: black;
 }
-
 
 button a{
     text-decoration: none;
@@ -114,7 +117,7 @@ nav .pro1{
     border: none;
     height: 2rem;
     width: 2rem;
-    margin-top: 0.5rem;
+    margin-top: 2.2rem;
     border-radius: 50px;
     justify-content: right;
 }
@@ -217,6 +220,7 @@ margin-top: 8rem;
     width: 10rem;
     height: 2rem;
     background-color: white;
+    border:1px solid black
     
 }
 .carte1 .petit .pe h3 {
@@ -232,6 +236,57 @@ margin-top: 8rem;
    background-color: rgb(204, 180, 0);
    margin-top: 13rem;
 }
+footer{
+    height:7rem;
+    width: 100%;
+    background-color: black;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    justify-content:space-around ;
+   
+}
+
+footer .logo{
+
+margin-top: -1rem;
+}
+footer .logo img{
+    margin-left: 2rem;
+    height: 40px;
+    width: 40px;
+    margin-top: 3rem;
+}
+
+.bank{
+    color: white;
+    margin-top: 3rem;
+    margin-right: 1rem;
+   
+}
+
+.fleche2{
+height: 2rem;
+width: 2rem;
+background-color: black;
+position: absolute;
+margin-left: 29rem;
+margin-top: 7.2rem;
+border-radius: 0px 100% 100% 0%/ 100% 51% 49% 0%;
+}
+
+.fleche3{
+height: 2rem;
+width: 2rem;
+background-color: black;
+position: absolute;
+margin-left: 13.5rem;
+margin-top: 9.2rem;
+border-radius: 0px 100% 100% 0%/ 100% 51% 49% 0%;
+transform: rotate(180deg);
+
+}
+
 
 
 

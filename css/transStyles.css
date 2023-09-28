@@ -6,6 +6,7 @@
 body{
     width: 100%;
     height: 65%;
+    background-color: beige;
 }
 
 header{
@@ -22,27 +23,26 @@ header p{
     
 }
 
-
-header nav{
-    display: flex;
-}
-
+.tre{
+    margin-right: 10rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 30px;   
+    }
+    
 header ul{
     display: flex;
     justify-content: center;
     list-style: none;
-    margin-top: 5rem;
-    height: 3rem;
+    height: 6rem;
     width: 100%;
-    margin-left: 4rem;
     margin-right: 4rem;
     background-color: rgb(204, 180, 0);
-    border-radius: 10px;
-    /*padding-left: 2rem;*/
+    font-weight: bold;
 }
 header ul li{
     margin-right: 2rem;
-    margin-top: 1rem;
+    margin-top: 2.5rem;
 }
 header ul li a{
     color:black;
@@ -73,6 +73,7 @@ button{
     margin-top: 0.5rem;
     border-radius: 50px;
     justify-content: right;
+
 }
 
 .carre button{
@@ -109,166 +110,57 @@ button{
     
 }
 
-.div{
-    text-align: center;
-    margin-top: 6rem;
+nav .pro1{
+    display: flex;
+    border: none;
+    height: 2rem;
+    width: 2rem;
+    margin-top: 2.2rem;
+    border-radius: 50px;
+    justify-content: right;
 }
 
-footer .divi1{
+nav img{
+    border-radius: 50%;
+}
 
-    margin-top: 6rem;
+
+.div{
+    text-align: center;
 }
 
 footer{
-    height: 15rem;
+    height:7rem;
     width: 100%;
     background-color: black;
     margin-top: 10rem;
-   
+    display: flex;
+    justify-content: center;
+    justify-content:space-around ;
 }
-
 footer .logo{
 
-margin-top: 4rem;
-margin-left: 15rem;
+margin-top: -1rem;
 }
 footer .logo img{
     margin-left: 2rem;
     height: 40px;
     width: 40px;
-
-
-}
-
-
-.foot{
-    margin-right: 14rem;
-}
-
-.foot .div1 p{
-    text-transform: uppercase;
-    margin-top: rem;
-    margin-left: 7rem;
-    font-weight: bold;
-}
-
-.foot .div2 p{
-    margin-left: 7rem;
-    margin-top: rem;
-}
-
-.foot .div3 p{
-    margin-left: 7rem;
-    margin-top: rem;
-}
-.foot .div4 p{
-    margin-left: 7rem;
-    margin-top: rem;
-}
-
-.foot .logo {
-    display: flex;
-}
-
-
-
-
-
-
-.foot2{
-
-    justify-content: center;
-    margin-right: 15rem;
-
-}
-
-.foot2 .div1 p{
-    text-transform: uppercase;
-    margin-top: 1rem;
-    margin-left: 7rem;
-}
-
-.foot2 .div2 p{
-    margin-left: 7rem;
     margin-top: 3rem;
 }
 
-.foot2 .div3 p{
-    margin-left: 7rem;
-    margin-top: 5rem;
-}
-.foot2 .div4 p{
-    margin-left: 7rem;
-    margin-top: 7rem;
-}
-
-
-
-.foot3{
-    display: flex;
-    justify-content:flex-end;
-    margin-right: 17rem;
-    
-}
-
-.foot3 .div1 p{
-    margin-top: 1rem;
-    text-transform: uppercase;
-}
-
-.foot3 .div2 p{
-    margin-left: rem;
+.bank{
+    color: white;
     margin-top: 3rem;
+    margin-right: 1rem;
+   
 }
-
-.foot3 .div3 p{
-    margin-left: rem;
-    margin-top: 5rem;
-}
-.foot3 .div4 p{
-    margin-left: rem;
-    margin-top: 7rem;
-}
-
-.foot a{
-    text-decoration: none;
-    color: white;
-}
-
-
-.foot2 a{
-    text-decoration: none;
-    color: white;
-}
-
-.foot3 a{
-    text-decoration: none;
-    color: white;
-}
-
-
-.foot a:hover{
-    text-decoration: none;
-    color: red;
-}
-
-
-.foot2 a:hover{
-    text-decoration: none;
-    color: red;
-}
-
-.foot3 a:hover{
-    text-decoration: none;
-    color: red;
-}
-
 
 form{
     display: flex;
     justify-content: center;
     background-color: rgb(204, 180, 0);
-    height: 44rem;
+    height: 35rem;
     width: 30rem;
     margin: 0% auto;
     margin-top: 10rem;
@@ -326,10 +218,11 @@ h3{
     margin-top: -rem;
 }
 
-.valider{
+#submit{
     width: 10rem;
     background-color: black;
-    color:white   
+    color:white ; 
+    cursor: pointer;
 }
 
 .div input{
@@ -339,6 +232,10 @@ h3{
 
 input .valider{
    display: flex;
+}
+
+.blocform input{
+    border:1px solid black;
 }
 
 

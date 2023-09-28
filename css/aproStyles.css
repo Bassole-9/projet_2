@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 65%;
+    background-color: beige;
+}
+
+header{
+    height: 8rem;
+    width: 100%;
+    background-color: black;
+}
+
+.tre{
+    margin-right: 10rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 30px;
+    }
+
+
+header ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    height: 6rem;
+    width: 100%;
+    margin-right: 4rem;
+    background-color: rgb(204, 180, 0);
+    font-weight: bold;
+    /*padding-left: 2rem;*/
+}
+header ul li{
+    margin-right: 2rem;
+    margin-top: 2.5rem;
+}
+header ul li a{
+    color:black;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    text-decoration-style:solid;
+}
+header a:visited{
+    text-decoration-line: underline;
+    color: black;
+}
+
+button a{
+    text-decoration: none;
+    margin-right: 1.1rem;
+    margin-top: .5rem;   
+}
+
+button{
+    display: flex;
+    border: none;
+    height: 2rem;
+    width: 6rem;
+    margin-top: 0.5rem;
+    border-radius: 50px;
+    justify-content: right;
+}
+
+.carre button{
+    display: flex;
+    position: absolute;
+    margin-top: 16rem;
+    margin-left: 17rem;
+    height: 3.5rem;
+    width: 12rem;
+    padding-right: 2.7rem;
+    padding-top: .7rem;
+    border-radius: 10px;
+    border: none;
+    border: 2px solid rgb(252, 248, 23);   
+}
+
+.carre button a{
+    color: rgb(0, 127, 191);
+}
+
+.carre{
+    height: 34rem;
+    width: 70%;
+    display: flex;
+    margin-left: 15%;
+}
+.carre p{
+    margin-left: 2rem;
+    font-size:30px;
+    position: absolute;
+    margin-left: 13rem;
+    margin-top: 7rem;
+    text-transform: uppercase;
+    
+}
+nav .pro1{
+    display: flex;
+    border: none;
+    height: 2rem;
+    width: 2rem;
+    margin-top: 2.2rem;
+    border-radius: 50px;
+    justify-content: right;
+}
+
+nav img{
+    border-radius: 50%;
+}
+
+
+.div{
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.div h4{
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+    color:rgb(204, 180, 0);
+}
+.div h1{
+
+    font-size: 40px;
+    margin-top: 2rem;
+}
+
+footer{
+    height:7rem;
+    width: 100%;
+    background-color: black;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    justify-content:space-around ;
+}
+
+footer .logo{
+
+margin-top: -1rem;
+}
+footer .logo img{
+    margin-left: 2rem;
+    height: 40px;
+    width: 40px;
+    margin-top: 3rem;
+}
+
+.bank{
+    color: white;
+    margin-top: 3rem;
+    margin-right: 1rem;  
+}
+
+
+.list{
+    font-size: 30px;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    margin-right: 32rem; 
+}
+
+.list1{
+    font-size: 30px;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    margin-right: 30rem; 
+}
+
+.list2{
+    font-size: 30px;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    margin-right: 28rem;
+}
+
+.bloc1{
+    width: 50rem;
+    height: 10rem;
+}
+ 
+
+.roi{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 2px;
+    
+}
+
+.carre{
+    height: 10rem;
+    width: 10rem;
+    border: solid black;
+    margin-left: -2rem;
+}
+
+.bloc1 p{
+   font-size:20px;
+   margin-left: 1rem;
+   margin-top: 0.5rem;
+}
+
+.titre{
+    color: white;
+    display: flex;
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 5rem;
+    margin-top: 1.5rem;
+}
+
