@@ -19,7 +19,7 @@ submit.addEventListener("click", (e) => {
   <td data-title="SPECIALITE">${specialite}</td>
   <td data-title="MODIFICATION" ><i class="edite"  id="edite-${
     content + 1
-  }">Edite</i> <i class="delete" id="delete-${content + 1}">Delete</i></td>
+  }</td>
 </tr>`;
 
   table.innerHTML += info;
