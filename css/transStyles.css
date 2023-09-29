@@ -160,7 +160,7 @@ form{
     display: flex;
     justify-content: center;
     background-color: rgb(204, 180, 0);
-    height: 35rem;
+    height: 30rem;
     width: 30rem;
     margin: 0% auto;
     margin-top: 10rem;
@@ -223,6 +223,7 @@ h3{
     background-color: black;
     color:white ; 
     cursor: pointer;
+    margin-top: 4.5rem;
 }
 
 .div input{
