@@ -5,7 +5,7 @@ const infoUser = JSON.parse(localStorage.getItem('session'))
 
 function deconnexion() {
     localStorage.removeItem('session')
-    const yy = confirm("vous etes sure ")
+    const yy = confirm("voulez-vous vous deconnecter ")
     if (yy) {
         window.location.href = '../index.html'
     }

@@ -285,6 +285,7 @@ button{
     justify-content: center;
     padding-top: 0.5rem;
     width: 15rem;
+    cursor: pointer;
 }
 
 .barre{

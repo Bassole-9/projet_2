@@ -28,6 +28,8 @@ header ul{
     width: 100%;
     margin-right: 4rem;
     background-color: rgb(204, 180, 0);
+    font-weight: bold;
+    font-size: 14px;
 }
 header ul li{
     margin-right: 2rem;
